@@ -13,12 +13,13 @@
 
 <body>
 
-	<section class="products">
-		<div class="container">
-			<div class="products__item" hidden>
+	<section class="products" >
+		<div class="containers">
+			<div class="products__item">
+
 
 				<div class="products__item-info">
-					<span class="products__logo">CMS</span>
+					<h1 class="products__logo">CMS</h1>
 					<div class="products__value">
 						<p class="products__value-text">Итоговая стоимость:</p>
 						<span class="products__value-price">$ 900.00</span>
@@ -48,7 +49,7 @@
 								<input class="products__input" type="search" placeholder="Поиск по наименованию и категории">
 							</label>
 						</button>
-						<button class="products__group-btn">Добавить товар</button>
+						<button  class="products__group-btn">Добавить товар</button>
 					</form>
 
 					<div class="products__item-table">
@@ -618,15 +619,17 @@
 	</section>
 
 
+
+
 	<!----------------------------- overlay ----------------------------------------------------- -->
 
-	<section class="modal">
+	<section class="modal" hidden>
 		<div class="container">
 			<div class="modal-box">
 				<p class="modal-box__text">Добавить ТОВАР</p>
 
 				<button class="modal-box__button" type="submit">
-					<svg class="modal-box__button-svg" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+					<svg class="modal-box__button-svg" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none">
 						<path d="M2 2L22 22" stroke="#6E6893" stroke-width="3" stroke-linecap="round" />
 						<path d="M2 22L22 2" stroke="#6E6893" stroke-width="3" stroke-linecap="round" />
 					</svg>
@@ -649,7 +652,7 @@
 
 						<label for="discount" class="modal-box__form-label modal-box__form-label-type-disabled">Дисконт
 							<input class="modal-box__form-checkbox" type="checkbox" name="discount">
-							<input class="modal-box__form-input modal-box__form-input-size-small" type="text" name="discount" id="discount"
+							<input class="modal-box__form-input modal-box__form-input-size-small" type="text" name="discount" id="discount disabled"
 								>
 						</label>
 
