@@ -1,4 +1,9 @@
 /* !! ============== general settings ============= */
+
+body {
+	background-color: #f2f0f9;
+}
+
 svg {
 	max-width: 100%;
 	max-height: 100%;
@@ -14,14 +19,14 @@ svg {
 
 .containers {
 	margin: 0 auto;
-	width: 1300px;	
+	width: 1200px;	
 }
 
 .products__item {
-	min-width: 1300px;
-	padding: 79px 100px 110px;
+	min-width: 1100px;
+	padding: 40px 50px 55px;
 	background-color: #f2f0f9;
-	box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+	/* box-shadow: 0 0 5px rgba(0, 0, 0, 0.2); */
 }
 
 .products__item-info {
@@ -103,8 +108,8 @@ svg {
 }
 
 .products__group-search {
-	align-items: center;
 	display: flex;
+	align-items: center;
 	padding-left: 10px;
 	font-size: 12px;
 	background-color: #f4f2ff;
@@ -141,18 +146,15 @@ svg {
 	color: #fff;
 	border-radius: 6px;
 	text-transform: uppercase;
-	/* transition-duration: 0.5s, 0.5s, 1s;
-	transition-property: background-color, outline, color;
-	transition-timing-function: ease-in-out; */
 }
 
 /* --- таблица -- */
 
 .products__item-table {
 	display: table;
-	background-color: #fff;
 	min-height: 205px;
 	max-width: 1100px;
+	background-color: #fff;
 }
 
 .table-box {
@@ -162,10 +164,10 @@ svg {
 .table-box__head {
 	font-size: 12px;
 	font-weight: 600;
-	background-color: #f4f2ff;
 	color: #6e6893;
 	text-align: left;
 	letter-spacing: 1px;
+	background-color: #f4f2ff;
 	text-transform: uppercase;
 }
 
@@ -195,7 +197,6 @@ td {
 .footer-text {
 	display: flex;
 	align-items: center;
-
 	max-width: 325px;
 	padding: 15px 5px;
 }
@@ -205,14 +206,14 @@ td {
 }
 
 .footer-number {
-	margin-right: 50px;
 	width: 95px;
+	margin-right: 50px;
 	padding: 15px 15px;
 }
 
 .footer-button-left {
-	margin-right: 50px;
 	width: 20px;
+	margin-right: 50px;
 }
 
 .footer-button-right {
@@ -272,22 +273,22 @@ td {
 }
 
 .container {
-	margin: auto;
 	position: relative;
 	top: 15%;
 	padding-left: 106px;
 	padding-right: 106px;
 	max-width: 800px;
 	height: auto;
+	margin: auto;
 	background-color: #f2f0f9;
 	box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.25);
 	overflow: hidden;
 }
 
 .modal-box {
+	min-height: 554px;
 	padding-top: 32px;
 	padding-bottom: 39px;
-	min-height: 554px;
 }
 
 .modal-box__text {
@@ -339,10 +340,10 @@ td {
 }
 
 .modal-box__form-input {
+	width: 100%;
 	padding: 11px;
 	font-size: 16px;
 	line-height: 1.125;
-	width: 100%;
 	border: none;
 	border-radius: 6px;
 	background-color: #f4f2ff;
