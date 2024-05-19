@@ -1,6 +1,4 @@
-/* eslint-disable max-len */
 'use strict';
-
 /* В репозитории с проектом CRM (который верстали в предыдущем модуле)
 Создайте новую ветку для этого урока, подключите js файл к странице
 Для модального окна добавьте класс модификатор который меняет свойство
@@ -13,26 +11,32 @@ display: none; на display: flex;
 4. Чекбокс и  Поле рядом с чекбоксом
 5. Итоговую стоимость
 
-Именование констант должно быть говорящем за себя, по имени должно быть понятно какой элемент в константе хранится.
+Именование констант должно быть говорящем за себя,
+по имени должно быть понятно какой элемент в константе хранится.
 
-На проверку присылайте ссылку на текущую ветку, после принятия работы куратором ветку сливаем в ветку dev и исходную ветку удаляем. */
+На проверку присылайте ссылку на текущую ветку,
+после принятия работы куратором ветку сливаем в ветку dev
+и исходную ветку удаляем. */
 
-const element = document.querySelector('.modal');
-console.log('element: ', element);
+const elementSectionModal = document.querySelector('.modal');
+console.log('elementSectionModal: ', elementSectionModal);
 
-element.classList.add('activ');
-
-// console.log(element.outerHTML);
+elementSectionModal.classList.add('activ');
+console.log('elementSectionModal: ', elementSectionModal);
+console.log(elementSectionModal.outerHTML);
 
 const title = document.querySelector('.modal-box__title-text');
 console.log('title: ', title);
-// title.innerHTML = '<a href="https://www.google.com" target="_blank">Ссылка</a>';
-
 // console.log(title.outerHTML);
-// title.style.color = 'green';
-const box = document.querySelectorAll('.modal-box__form');
-console.log('box: ', box);
 
+const buttonId = document.querySelector('.modal-box__title-button');
+console.log('buttonId: ', buttonId);
+
+const idText = document.getElementById('201910241');
+console.log('idText: ', idText);
+
+const formBox = document.querySelectorAll('.modal-box__form');
+console.log('formBox: ', formBox);
 
 const checkbox = document.querySelectorAll('.modal-box__form-checkbox');
 console.log('checkbox: ', checkbox);
@@ -40,10 +44,7 @@ console.log('checkbox: ', checkbox);
 const inputCheckBox = document.querySelector('.inputcheckbox');
 console.log('inputCheckBox: ', inputCheckBox);
 
-const id = document.querySelectorAll('id');
-console.log('id: ', id);
-
-const price = document.querySelector('.modal-box__form-price');
-console.log('price: ', price);
+const priceAll = document.querySelector('.modal-box__form-price');
+console.log('priceAll: ', priceAll);
 
 
