@@ -18,12 +18,12 @@ display: none; на display: flex;
 после принятия работы куратором ветку сливаем в ветку dev
 и исходную ветку удаляем. */
 
-const elementSectionModal = document.querySelector('.modal');
-console.log('elementSectionModal: ', elementSectionModal);
+const modal = document.querySelector('.modal');
+console.log('modal: ', modal);
 
-elementSectionModal.classList.add('activ');
-console.log('elementSectionModal: ', elementSectionModal);
-console.log(elementSectionModal.outerHTML);
+modal.classList.add('active');
+console.log('modal: ', modal);
+console.log(modal.outerHTML);
 
 const title = document.querySelector('.modal-box__title-text');
 console.log('title: ', title);
@@ -31,9 +31,6 @@ console.log('title: ', title);
 
 const buttonId = document.querySelector('.modal-box__title-button');
 console.log('buttonId: ', buttonId);
-
-const idText = document.getElementById('201910241');
-console.log('idText: ', idText);
 
 const formBox = document.querySelectorAll('.modal-box__form');
 console.log('formBox: ', formBox);
@@ -46,5 +43,8 @@ console.log('inputCheckBox: ', inputCheckBox);
 
 const priceAll = document.querySelector('.modal-box__form-price');
 console.log('priceAll: ', priceAll);
+
+const id = document.getElementById('modal');
+console.log('id: ', id);
 
 
